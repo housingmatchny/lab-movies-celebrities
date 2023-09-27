@@ -1,0 +1,19 @@
+/*
+NOTES
+order of steps
+
+routes - create celebrities.js
+var celebritiesRouter
+app.use to tell the program when to use the router
+models > celebrity.js: define the model
+
+views - new celebrity: added form
+
+
+4 main files for movement:
+model - define model
+view - define layout; take the schema and insert
+layout - link the path 
+route - set the route to render from xx
+
+model name, capital first letter, mongoose will automatically name the collection as the lowercase, plural version of the model name, so it's good to distinguish
